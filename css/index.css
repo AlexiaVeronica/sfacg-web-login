@@ -1,0 +1,140 @@
+html,body{
+    padding: 0;
+    margin: 0;
+}
+.content{
+    position: absolute;
+    width: 480px;
+    height: 540px;
+    background-color: aliceblue;
+    right: 20%;
+    top: 15%;
+    border-radius: 5px;
+}
+.text{
+    position: absolute;
+    left: 8%;
+    top: 18%;
+}
+.text1{
+    font-size: 60px;
+    color: aliceblue;
+    font-family: '微软雅黑', serif;
+}
+.text2{
+    font-size: 30px;
+    color: aliceblue;
+    font-family: '微软雅黑', serif;
+    margin-left: 10px;
+}
+.lan{
+    position: absolute;
+    top: -30%;
+    left: 10%;
+}
+.lan2{
+    position: absolute;
+    top: -30%;
+    left: 85%;
+}
+.gun{
+    width: 4px;
+    height: 200px;
+    background-color: #67a7f7;
+    margin-left: 10px;
+}
+.ball{
+    width: 25px;
+    height: 25px;
+    background-color: #67a7f7;
+    border-radius: 50%;
+    box-shadow: 0px 3px 3px #367cd8 inset;
+}
+.admin-user{
+    width: 300px;
+    height: 45px;
+    padding-left: 60px;
+    background-color: #eaeaea;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+}
+.admin{
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%);
+}
+.admin::before{
+    width: 30px;
+    height: 30px;
+    content: url('../images/admin .svg');
+    position:absolute;
+    top: 8px;
+    left: 10px;
+}
+.clock-pw{
+    width: 300px;
+    height: 45px;
+    padding-left: 60px;
+    background-color: #eaeaea;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+}
+.clock{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%);
+}
+.clock::before{
+    width: 30px;
+    height: 30px;
+    content: url('../images/锁定.svg');
+    position:absolute;
+    top: 8px;
+    left: 10px;
+}
+.verify-text{
+    width: 300px;
+    height: 45px;
+    padding-left: 60px;
+    background-color: #eaeaea;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+}
+.verify{
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.wpw{
+    color: gray;
+    position: absolute;
+    right: 10%;
+    top:65% ;
+    cursor: pointer;
+}
+.btn>button{
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%);
+    width: 360px;
+    height: 45px;
+    background-color: #5799ed;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+    font-size: 18px;
+    letter-spacing: 10px;
+    font-weight: normal;
+}
+button:hover{
+    background:#367cd8 ;
+}
